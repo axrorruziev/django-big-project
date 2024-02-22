@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин техники</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+
+    <header style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+        <h1>Магазин техники</h1>
+        <nav>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Главная</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Каталог</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="buy" style="text-decoration: none; color: #fff;">О нас</a></li>
+                <li style="display: inline;"><a href="#" style="text-decoration: none; color: #fff;">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding: 20px;">
+        <section class="products">
+            <article class="product" style="background-color: #fff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px;">
+                <img src="https://www.ixbt.com/img/n1/news/2022/5/4/7115a2bafa6f4c9aa86578706df73013_large.png" alt="Ноутбук" style="max-width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;">
+                <h2 style="font-size: 20px; margin-bottom: 10px;">IPHONE 14 PRO</h2>
+                <p style="margin-bottom: 10px;"><b>Габариты: 147,5×71,5×7,9 мм, 206 г</b>
+                </p>
+                <p style="margin-bottom: 10px;"><b>Дисплей: 6,1", LTPO OLED, Super Retina XDR, 2556×1179, 460 ppi, 1-120 Гц</b>
+                </p>
+                <p style="margin-bottom: 10px;"><b>Процессор: 6-ядерный Apple A16 Bionic</b>
+                </p>
+                <p style="margin-bottom: 10px;"><b> Память: 6 ГБ ОЗУ, 128/256/512 ГБ или 1 ТБ ПЗУ</b>
+                </p>
+                <p style="margin-bottom: 10px;"><b>Камеры: 48 Мп, f/1,8 (широкоугольная) + 12 Мп, f/2,2, 120 градусов (сверхширокоугольная) + 12 Мп, f/2,8 (телеобъектив); 12 Мп, f/1,9 (фронтальная)</b>
+                </p>
+                <p style="margin-bottom: 10px;"><b>Связь: Lightning (USB 2.0), Gigabit LTE, 5G, Wi‑Fi 6 (802.11ax) с технологией MIMO, Bluetooth 5.3, UWB, GPS, ГЛОНАСС, Galileo, NFC, eSIM</b>
+                </p>
+                <p style="margin-bottom: 10px;"><strong>Цена: $999.99</strong></p>
+                <button type="button"><a href="{% url 'buy' %}}">buy</a></button>
+            </article>
+
+            <article class="product" style="background-color: #fff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px;">
+                <img src="smartphone.jpg" alt="Смартфон" style="max-width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;">
+                <h2 style="font-size: 20px; margin-bottom: 10px;">Смартфон</h2>
+                <p style="margin-bottom: 10px;">Современный смартфон с передовыми функциями.</p>
+                <p style="margin-bottom: 10px;">Цена: 10.040.000</p>
+            </article>
+            <button type="button">Добавить в корзину</button>
+
+
+            <!-- Добавьте другие продукты аналогично -->
+        </section>
+    </main>
+
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 20px; position: fixed; width: 100%; bottom: 0;">
+        <p>&copy; 2024 Магазин техники. Все права защищены.</p>
+    </footer>
+</body>
+</html>
